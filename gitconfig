@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = christian.bongard90@gmail.com
+	name = Christian Bongard
