@@ -24,7 +24,6 @@
     "emmet.triggerExpansionOnTab": true,
     "explorer.confirmDelete": false,
     "window.restoreWindows": "none",
-    "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
     "workbench.iconTheme": "vscode-great-icons",
@@ -62,7 +61,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "[python]":
