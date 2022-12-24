@@ -11,9 +11,16 @@ alias stt="echo 'Launching VS Code instead of Sublime Text... (cf ~/.aliases)' &
 
 #clear alias
 alias cls="clear"
+alias clc="clear"
 
 
 #git shortcuts
 alias gpom="git push origin master"
 alias gcm="git commit -m "
 alias gad="git add ."
+
+function ggg(){
+    git add .
+    git commit -m "$1"
+    git push origin "$(git_current_branch)"
+}
